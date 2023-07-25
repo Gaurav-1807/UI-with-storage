@@ -1,0 +1,155 @@
+
+input{
+   
+    /* border:1px solid cadetblue; */
+    outline: none;
+}
+#btns{
+    display: flex;
+    justify-content: space-around;
+}
+
+#ui {
+   
+    display: grid;
+    background-color:black;
+    grid-template-columns: repeat(5, 1fr);
+    /* background-image: url(images/cybersecurity-digital-information-technology-concept-polygon-binary-code-connected_371307-161.avif); */
+}
+.div{
+    /* background-color: rgba(0, 0, 0, 0.268); */
+    text-align: center;
+    /* padding: 25px; */
+    margin: 0 auto;
+    margin:  10px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 15px black;
+}
+.overlay{
+    background-color:rgba(0, 0, 0, 0.433);
+    height: 100%;
+    
+    margin: 0 auto;
+    padding: 50px;
+    z-index: 999 !important;
+}
+.container{
+    width: 700px;
+    margin: 0 auto;
+}
+.form{
+    width: 500px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+   border-radius: 10px;
+   border: 2px solid black;
+   overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(images/business-concept-e-commerce-word-cloud-design-background-template-2GCA8M1.jpg);
+    
+}
+input{
+    padding: 5px 10px;
+    width: 95%;
+    margin: 10px 0px;
+    background-color:  rgba(255, 255, 255, 0.792);
+    border-color:  white;
+    border-radius: 10px;
+    border-width: 3px;
+    color:black;
+}
+input::placeholder{
+    color: black ;
+}
+.img{
+    max-width: 100%;
+    height: 200px;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.update{
+    display: inline-block;
+    width: 95%;
+    background-color:black;
+    padding: 10px 0px;
+    color: white;
+   border: none;
+   border-radius: 10px;
+   margin: 10px 10px;
+
+}
+.btn{
+    padding: 10px 25px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    color: black;
+   
+}
+.btn::placeholder{
+    color: black;
+}
+p{
+    font-weight: 700;
+    font-size: 20px;
+}
+h3{
+    font-weight: 900;
+    font-size: 25px;
+    text-align: center;
+}
+#btns button{
+    padding: 10px 20px;
+    margin: 10px auto;
+    display: block;
+    background-color:black;
+    color: white;
+    border-radius: 10px;
+    border: 0px ;
+}
+.search input{
+    width: 50%;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+}
+.search input::placeholder{
+    color: white;
+}
+.search button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.search{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: white;
+    
+    font-family: 'Courier New', Courier, monospace;
+}
+@media screen and (max-width:575px){
+    #output{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media (min-width:575px) and (max-width:767px) {
+    #output{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width:767px) and (max-width:991px){
+    #output{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
